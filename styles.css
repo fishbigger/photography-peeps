@@ -1,0 +1,83 @@
+
+body{
+	font-family: roboto;
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+  padding: 20px 0px;
+
+  background-color: #000000;
+
+  background-image: url("images/landscape.jpg");
+  position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 2%;
+}
+
+#header{
+	text-align: center;
+	margin-top: 5%;
+	color: #ffffff;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 15px 50px;
+	border: 2px solid #ffffff;
+
+	backdrop-filter: blur(5px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: auto;
+}
+
+.column {
+  flex: 23%;
+  max-width: 23%;
+  padding-left: 8px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.image-container:hover{
+	transition: .25s ease;
+	opacity: 0.6;
+}
+
+
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.caption {
+  padding: 4px;
+  background: #51515190;
+
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+
+  opacity: 0;
+}
+
+.image-container:hover .caption{
+	transition: .25s ease;
+	opacity: 1;
+}
+
